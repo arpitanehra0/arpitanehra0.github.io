@@ -13,6 +13,33 @@
       background-color: #f9f9f9;
     }
 
+    /* Top navigation bar */
+.top-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px 40px;
+  text-align: right;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Navigation links */
+.top-nav a {
+  margin-left: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+/* Subtle hover effect */
+.top-nav a: hover {
+  text-decoration: underline;
+}
+</style>
+
     .container {
       display: flex;
       align-items: flex-start;
@@ -114,6 +141,13 @@
 </div>
 
 </body>
+
+<nav class="top-nav">
+  <a href="index.html">Home</a>
+  <a href="research.html">Research</a>
+  <!--a href="cv.pdf" target="_blank">CV</a-->
+</nav>
+  
 </html>
 
 <a href="research.html">Research</a>
